@@ -182,6 +182,11 @@ text-align: center;
   width: 33%;
   float: left; 
 }
+.ButtonParent{
+ position: absolute;
+ 
+  
+}
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
@@ -193,37 +198,6 @@ text-align: center;
     transform: scale(1, 1);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .Wavy-Image {
@@ -298,6 +272,12 @@ text-align: center;
   z-index: 0;
   top: 45vh;
   left: 33vw;
+}
+.Home-Button-Container-ONE{
+  position: absolute;
+  z-index: 0;
+  top: 45vh;
+  left: 12vw;
 }
 
 .Page-Button1{

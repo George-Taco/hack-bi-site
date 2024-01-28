@@ -7,6 +7,11 @@ export default function page_one() {
         <div className="HeaderContainer">
         <h1 className="PageOneHeader">What is AI?</h1>
         </div>
+        <div className="ButtonParent">
+        <div className="Home-Button-Container-ONE">
+            <button className="Page-Button1">Next →</button>
+        </div>
+        </div>
         </div>
         <div className="SpaceParent">
         <div className="Card1">
