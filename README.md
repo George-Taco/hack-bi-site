@@ -1,4 +1,4 @@
-##WELCOME
+## WELCOME
 Hope you enjoy our website and mini-game. Always use AI responsibly! 
 
 ## Pre-Requisites
