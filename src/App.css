@@ -84,11 +84,47 @@
 
 }
 
+.Home-Button-Container{
+  position: absolute;
+  z-index: 0;
+  top: 45vh;
+  left: 10vw;
+}
+
+.Home-Button1{
+  color: black;
+  width: 18vw;
+  height: 5vh;
+  font-family: Anonymous Pro;
+  font-size: 100%;
+  left: 0;
+  right: 0;
+  margin:auto;
+  animation: zoom-in-zoom-out 1s ease infinite;
+  animation-duration: 2s;
+}
+
+.Home-Button2{
+  color: black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
   }
 }
