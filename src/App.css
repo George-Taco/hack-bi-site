@@ -13,6 +13,16 @@
   }
 }
 
+@font-face {
+  font-family: 'Anonymous Pro';
+  src: url(/Users/maze/hack-bi-site/public/Anonymous_Pro/AnonymousPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Anonymous Pro Bold';
+  src: url(/Users/maze/hack-bi-site/public/Anonymous_Pro/AnonymousPro-Bold.ttf);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +36,52 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Home-Page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Full-Page-Image {
+  position: sticky;
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(60%);
+  z-index: -1;
+}
+
+.Home-Page-Line {
+  left: -60vw;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+.Home-Title {
+  z-index: -1;
+  position: absolute;
+  top: 22vh;
+  left: 8vw;
+  font-size: 400%;
+  color: white;
+  font-family: 'Anonymous Pro Bold';
+  text-align: center;
+}
+
+.Home-Text{
+  z-index: -1;
+  position: absolute;
+  top: 35vh;
+  left: 8vw;
+  font-size: 150%;
+  color: white;
+  font-family: 'Anonymous Pro';
+  text-align: center;
+
 }
 
 @keyframes App-logo-spin {
