@@ -1,7 +1,15 @@
 import Header from "../components/Header";
 
+
 export default function home() {
     return (
-        <h2> Home Page</h2>
+        <div className="Home-Page">
+            <img className="Full-Page-Image" src="AIWebsiteBackground.png"/>
+            <img className="Home-Page-Line" src="HomePageLine.png"/>
+            <p className="Home-Title">LearnAIble</p>
+
+            <p className="Home-Text">&lt;&lt;Are You Ready to Begin?&gt;&gt;</p>
+            <div className="Start-Button-Container"><button className="Start-Button">Start</button></div>
+        </div>
     )
 }
