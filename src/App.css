@@ -301,8 +301,8 @@ font-family: 'Anonymous Pro';
 
 .cubes {
   position: absolute;
-  top: 15vh;
-  left: 85vh;
+  top: 11vh;
+  left: 79vh;
   transition: 0.3s;
   border-radius: 20px; /* 5px rounded corners */
 }
@@ -349,7 +349,7 @@ font-family: 'Anonymous Pro';
 .astro {
   position: absolute;
   top: 40vh;
-  left: 145vh;
+  left: 140vh;
   
   transition: 0.3s;
   border-radius: 20px; /* 5px rounded corners */
