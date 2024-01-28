@@ -9,7 +9,7 @@ export default function home() {
             <p className="Home-Title">LearnAIble</p>
 
             <p className="Home-Text">&lt;&lt;Are You Ready to Begin?&gt;&gt;</p>
-            <div className="Home-Button-Container"><button className="Home-Button1">Start</button></div>
+            <div className="Start-Button-Container"><button className="Start-Button">Start</button></div>
         </div>
     )
 }

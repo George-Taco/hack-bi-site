@@ -64,7 +64,7 @@
 .Home-Title {
   z-index: -1;
   position: absolute;
-  top: 22vh;
+  top: 17vh;
   left: 8vw;
   font-size: 400%;
   color: white;
@@ -75,7 +75,7 @@
 .Home-Text{
   z-index: -1;
   position: absolute;
-  top: 35vh;
+  top: 30vh;
   left: 8vw;
   font-size: 150%;
   color: white;
@@ -84,14 +84,14 @@
 
 }
 
-.Home-Button-Container{
+.Start-Button-Container{
   position: absolute;
   z-index: 0;
-  top: 45vh;
+  top: 43vh;
   left: 10vw;
 }
 
-.Home-Button1{
+.Start-Button{
   color: black;
   width: 18vw;
   height: 5vh;
@@ -104,9 +104,6 @@
   animation-duration: 2s;
 }
 
-.Home-Button2{
-  color: black;
-}
 
 @keyframes App-logo-spin {
   from {
