@@ -9,7 +9,9 @@ export default function page_one() {
         </div>
         <div className="ButtonParent">
         <div className="Home-Button-Container-ONE">
+            <a href="page_two">
             <button className="Page-Button1">Next →</button>
+            </a>
         </div>
         </div>
         </div>
@@ -22,8 +24,7 @@ export default function page_one() {
         </div>
        <div className="SpaceParent">
         <div className="Card2">
-            <p className="PageOneText2">In order to use AI responsibly, it is important to know how it works. To keep it simple: AI is like a very bright student. In developing AI, the AI model, or student, is provided with a large library from which to learn from. The model memorizes the information from the library, and then the teacher gives the model new information and asks the model to compare it to the library. 
-            </p>
+            <p className="PageOneText2">In order to use AI responsibly, it is important to know how it works. To keep it simple: AI is like a very bright student. In developing AI, the AI model, or student, is provided with a large library from which to learn from. The model memorizes the information from the library, and then the teacher gives the model new information and asks the model to compare it to the library. </p>
         </div>
         </div>
         </div>
