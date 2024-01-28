@@ -13,6 +13,16 @@
   }
 }
 
+@font-face {
+  font-family: 'Anonymous Pro';
+  src: url(/Users/maze/hack-bi-site/public/Anonymous_Pro/AnonymousPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Anonymous Pro Bold';
+  src: url(/Users/maze/hack-bi-site/public/Anonymous_Pro/AnonymousPro-Bold.ttf);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +38,73 @@
   color: #61dafb;
 }
 
+.Home-Page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Full-Page-Image {
+  position: sticky;
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(60%);
+  z-index: -1;
+}
+
+.Home-Page-Line {
+  left: -60vw;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+.Home-Title {
+  z-index: -1;
+  position: absolute;
+  top: 17vh;
+  left: 8vw;
+  font-size: 400%;
+  color: white;
+  font-family: 'Anonymous Pro Bold';
+  text-align: center;
+}
+
+.Home-Text{
+  z-index: -1;
+  position: absolute;
+  top: 30vh;
+  left: 8vw;
+  font-size: 150%;
+  color: white;
+  font-family: 'Anonymous Pro';
+  text-align: center;
+
+}
+
+.Start-Button-Container{
+  position: absolute;
+  z-index: 0;
+  top: 43vh;
+  left: 10vw;
+}
+
+.Start-Button{
+  color: black;
+  width: 18vw;
+  height: 5vh;
+  font-family: Anonymous Pro;
+  font-size: 100%;
+  left: 0;
+  right: 0;
+  margin:auto;
+  animation: zoom-in-zoom-out 1s ease infinite;
+  animation-duration: 2s;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -37,6 +114,69 @@
   }
 }
 
+.PageOne{
+  background: #09121A;
+align-items: center;
+height: 100vh;
+
+display: flex;
+}
+
+/* cant get this to look good lol 
+its supposed to be on page 1, values taken from figma*/
+.Gradient{
+opacity: 0.7;
+background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(2, 84, 156, 0.63) 0%, rgba(0, 0, 0, 0.00) 100%);
+width: 884px;
+height: 650px;
+flex-shrink: 0;
+}
+.PageOneHeader{
+  margin: auto;
+  color: white;
+  float: left;
+}
+/* the two text boxes for page one*/
+.Card1{
+position: absolute;
+float: left;
+border-radius: 24px;
+background-color: aliceblue;
+height:75vh;
+}
+
+.Card2{
+position: absolute;
+border-radius:24px;
+background-color:aliceblue;
+height:75vh;
+
+
+}
+.container {
+  position: absolute;
+  padding: 2px 16px;
+  left: 0;
+  right: 0;
+  display: table-cell;
+  vertical-align: center;
+  margin: auto;
+}
+.PageOneText{
+  color: white;
+
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
 
 
