@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: 'Anonymous Pro';
-  src: url(/Users/maze/hack-bi-site/public/Anonymous_Pro/AnonymousPro-Regular.ttf);
+  src: url(../public/Anonymous_Pro/AnonymousPro-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Anonymous Pro Bold';
-  src: url(/Users/maze/hack-bi-site/public/Anonymous_Pro/AnonymousPro-Bold.ttf);
+  src: url(/public/Anonymous_Pro/AnonymousPro-Bold.ttf);
 }
 
 .App-header {
@@ -308,3 +308,16 @@ height:75vh;
     transform: scale(1, 1);
   }
 } 
+
+.astro {
+  position: absolute;
+  top: 40vh;
+  left: 145vh;
+  
+  transition: 0.3s;
+  border-radius: 20px; /* 5px rounded corners */
+  transform: scaleX(-1);
+  width:20vh;
+  height: auto;
+  
+}

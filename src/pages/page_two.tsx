@@ -16,7 +16,8 @@ export default function page_two() {
                         <br />for evil as well as good. 
                     </p>
                     <img className="cubes" src="cubes.png"></img>
-                    <div className="Home-Button-Container"><button className="Page-Button1">Next </button></div>
+                    <div className="Home-Button-Container"><button className="Page-Button1">Next →</button></div>
+                    <img className="astro" src="astro.png"></img>
                 </div>
             </div>
         </div>
