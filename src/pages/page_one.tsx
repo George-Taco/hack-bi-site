@@ -2,6 +2,7 @@ import Header from "../components/Header";
 
 export default function page_one() {
     return (
+
         <div className="PageOne">
         <div className="SpaceParent">
         <div className="HeaderContainer">
@@ -31,5 +32,6 @@ export default function page_one() {
         </div>
         </div>
         </div>
+
     )
 }

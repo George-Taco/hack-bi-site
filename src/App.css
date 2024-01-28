@@ -23,6 +23,11 @@
   src: url(/public/Anonymous_Pro/AnonymousPro-Bold.ttf);
 }
 
+@font-face {
+  font-family: 'Raleway';
+  src: url(/public/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -262,10 +267,10 @@ font-family: 'Anonymous Pro';
   background-color: #0B2236;
   font-size: 20px;
   color: white;
-  left: 10vw;
+  left: 17vw;
   top: 20vh;
-  width: 80vw;
-  height: 30vw;
+  width: 65vw;
+  height: 25vw;
   display: flex;
 }
 
@@ -286,7 +291,7 @@ font-family: 'Anonymous Pro';
   align-items:left;
   text-align: left;
   font-size: 20pt;
-  font-family: "Verdana";
+  font-family: "Raleway";
   padding-left:3vh;
 
 
@@ -295,23 +300,26 @@ font-family: 'Anonymous Pro';
 .noted {
   text-align: left;
   padding-left:3vh;
-
+  font-family: "Raleway";
+  font-size:small;
 
 }
 
 .cubes {
   position: absolute;
+
   top: 11vh;
   left: 79vh;
+
+
   transition: 0.3s;
-  border-radius: 20px; /* 5px rounded corners */
 }
 
 .Home-Button-Container{
   position: absolute;
   z-index: 0;
-  top: 45vh;
-  left: 33vw;
+  top: 30vh;
+  left: 20vw;
 }
 .Button-Container1{
   position: absolute;
@@ -323,10 +331,12 @@ font-family: 'Anonymous Pro';
 
 .Page-Button1{
   color: black;
+
   height: 5vh;
   width: 10vw;
+
   font-family: Anonymous Pro;
-  font-size: 100%;
+  font-size: small;
   left: 0;
   right: 0;
   margin:auto;
@@ -348,8 +358,10 @@ font-family: 'Anonymous Pro';
 
 .astro {
   position: absolute;
+
   top: 40vh;
   left: 140vh;
+
   
   transition: 0.3s;
   border-radius: 20px; /* 5px rounded corners */
