@@ -1,3 +1,21 @@
+## WELCOME
+Hope you enjoy our website and mini-game. Always use AI responsibly! 
+
+## Pre-Requisites
+- Node.js
+- npm
+
+### Commands to run
+'npm install' 
+
+### Link to mini-game
+[Mini-Game](https://inspiring-empanada-88316d.netlify.app/)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
