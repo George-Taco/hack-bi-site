@@ -2,8 +2,8 @@
 Hope you enjoy our website and mini-game. Always use AI responsibly! 
 
 ## Pre-Requisites
--Node.js
--npm
+- Node.js
+- npm
 
 ### Commands to run
 'npm install' 
